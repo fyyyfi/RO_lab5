@@ -76,8 +76,8 @@ void ProcessInitialization(int *&pMatrix, int& Size) {
     pMatrix = new int[Size * Size];
     
     // Data initalization
-    DummyDataInitialization(pMatrix, Size);
-    //RandomDataInitialization(pMatrix, Size);
+    //DummyDataInitialization(pMatrix, Size);
+    RandomDataInitialization(pMatrix, Size);
 }
 
 // Function for allocating the memory and setting the initial values
